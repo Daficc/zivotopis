@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Életrajz</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+ </head>
+            
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div> 
+
+        <ul class="menu-nav">
+            <li><a href="#1">Kapcsolat</a></li>
+            <li><a href="#4">Szoftveres képességek</a></li>
+            <li><a href="#5">Rólam</a></li>
+            <li><a href="#6">Tapasztalat</a></li>
+            <li><a href="#8">Nyelvek</a></li>
+        </ul>
+  
+        <ul>    
+            <li class="lang-switch">
+                <a href="#" class="active-lang">🇭🇺</a>
+                <div class="lang-dropdown">
+                    <a href="indexen.html" class="lang-option">🇺🇸</a>
+                    <a href="indexhu.html" class="lang-option">🇭🇺</a>
+                    <a href="indexsk.htm" class="lang-option">🇸🇰</a>
+                </div>
+            </li>
+        </ul>
+        
+    </header>
+
+        <h1 id="1" class="fact" onclick="toggleFact('fact1')" > Kapcsolat </h1>
+            <div id="fact1" class="hidden-fact" >
+                <p><strong>Cím:</strong><a href="https://maps.google.com" >🌍 Nyitra 999; 949 01; Szlovákia</p></a> <br>
+                <p><strong>Mobile:</strong><a href="tel: 00421 01 112 233">📞 +421 01 112 233</a> </p> <br>
+                <p><strong>E-mail:</strong><a href="mailto:példa@példa.hu">📧 példa@példa.hu</a> </p> <br>
+                <p><strong>Facebook:</strong><a href="https://www.facebook.com">Facebook</a></p> <br>
+                <p><strong>Linkdin:</strong><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+
+
+        <h1 id="4" class="fact" onclick="toggleFact('fact4')" > Szoftveres képességek </h1>
+            <div id="fact4" class="hidden-fact" >
+                <p> A szoftveres képességeimet a <a href="https://skillmea.sk"><strong>skillmea.sk</strong></a> weboldalon szereztem, néhany tanfolyam elvégzésével, amelyeken elsajátítottam a <strong id="strg1">HTML, CSS, JavaScript, PHP</strong> és <strong id="strg1">Python</strong> alapjait.  </p>
+            </div>
+
+
+        <h1 id="5" class="fact" onclick="toggleFact('fact5')" > Rólam </h1>
+            <div id="fact5" class="hidden-fact" >
+                <p><strong>Születési dátum:</strong>1993.06.12.</p> <br>
+                <p><strong>Nemzetiség:</strong>Magyar</p> <br>
+                <p><strong>Nem:</strong> Férfi </p> <br>
+                <p>30 éves Nyitra mellett élő fiatalember vagyok, aki 1 éve kezdett bele a programozás tanulásába önkéntes alapon. <br>
+                Emellett aktívan tanulok angolul is. <br>
+                A szabadidőt nem sajnálva gyakorlom mindkét ágazatot nap mint nap, és a célom, hogy teljes munkaidőben tudjak vele foglalkozni. </p>
+            </div>
+
+        <h1 id="6" class="fact" onclick="toggleFact('fact6')" > Tapasztalat </h1>
+            <div id="fact6" class="hidden-fact" >
+                <p>Egyelőre annyi tapasztalattal rendelkezem, amit a tanfolyamok elvégzése által, illetve a házi feladatok telesítésével szereztem. <br>
+                Gyakorlás gyanánt belekezdtem néhány projektbe, amelyeket végül nem publikáltam, viszont lelkes tanuló vagyok és nem félek belekezdeni új dolgokba.</p>
+            </div>
+
+
+
+        <h1 id="8" class="fact" onclick="toggleFact('fact8')" > Nyelvek </h1>
+            <div id="fact8" class="hidden-fact" >
+                <div class="container">  
+
+                    <div class="container">  
+                        <p><strong>Magyar:</strong> 
+                        <div class="progress progress-striped">            
+                            <div class="progress-bar-hu">    
+                            </div>                       
+                        </div> 
+                      </div>
+
+                    <p><strong>Angol:</strong> </p>  
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar-en">    
+                        </div>                       
+                    </div> 
+                  </div>           
+            
+                  <div class="container">  
+                    <p><strong>Szlovák:</strong> 
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar">    
+                        </div>                       
+                    </div> 
+                </div>           
+            </div>
+
+    <footer>
+        <div class="containerr">
+        <div class="line"></div>
+        <p class="created-by">Készítette: <a id="foot" href="mailto:example@example.com"><strong>MOKOS DÁVID</strong></a> </a> </p>
+        </div>
+   </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+</body> 
+
+<script src="index.js"></script>
+
+</html>

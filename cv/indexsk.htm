@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Životopis</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+ </head>
+
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div> 
+
+        <ul class="menu-nav">
+            <li><a href="#1">Kontakt</a></li>
+            <li><a href="#4">Softvérové zručnosti</a></li>
+            <li><a href="#5">O mne</a></li>
+            <li><a href="#6">Skúsenosti</a></li>
+            <li><a href="#8">Jazykové znalosti</a></li>
+        </ul>
+
+   
+    
+        <ul>    
+            <li class="lang-switch">
+                <a href="#" class="active-lang">🇸🇰</a>
+                <div class="lang-dropdown">
+                    <a href="indexen.html" class="lang-option active-lang">🇺🇸</a>
+                    <a href="indexhu.html" class="lang-option">🇭🇺</a>
+                    <a href="indexsk.htm" class="lang-option">🇸🇰</a>
+                </div>
+            </li>
+        </ul>
+        
+    </header>
+
+        <h1 id="1" class="fact" onclick="toggleFact('fact1')" > Kontakt </h1>
+            <div id="fact1" class="hidden-fact" >
+                <p><strong>Adresa:</strong><a href="https://maps.google.com" >🌍 Nitra 999; 949 01; Slovensko</p></a> <br>
+                <p><strong>Mobil:</strong><a href="tel: 00421 01 112 233">📞 +421 01 112 233</a> </p> <br>
+                <p><strong>E-mail:</strong><a href="mailto:vzor@vzor.sk">📧 vzor@vzor.sk</a> </p> <br>
+                <p><strong>Facebook:</strong><a href="https://www.facebook.com">Facebook</a></p> <br>
+                <p><strong>Linkdin:</strong><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+
+        <h1 id="4" class="fact" onclick="toggleFact('fact4')" > Softvérové zručnosti </h1>
+            <div id="fact4" class="hidden-fact" >
+                <p>Moje softvérové schopnosti som získal na webovej stránke <a href="https://skillmea.sk"><strong>skillmea.sk</strong></a> absolvovaním niekoľkých kurzov, kde som si osvojil základy <strong id="strg1">HTML, CSS, JavaScriptu, PHP</strong> a <strong id="strg1">Pythonu</strong>.</p>
+            </div>
+
+
+        <h1 id="5" class="fact" onclick="toggleFact('fact5')" > O mne </h1>
+            <div id="fact5" class="hidden-fact" >
+                <p><strong>Dátum narodienia:</strong> 12.06.1993</p> <br>
+                <p><strong>Národnosť:</strong>Maďarský</p> <br>
+                <p><strong>Pohlavie:</strong> Muž </p> <br>
+
+                <p>Mám 30 rokov a žijem v blízkosti Nitry.<br>
+                     Pred rokom som začal dobrovoľne študovať programovanie. <br>
+                     Okrem toho aktívne sa učím aj anglický jazyk. <br>
+                    Študujem každý deň, a venujem sa obidvom oblastiam. <br>
+                     Mojím cieľom je pracovať s týmito vecami na plný úväzok. </p>
+            </div>
+
+        <h1 id="6" class="fact" onclick="toggleFact('fact6')" > Skúsenosti </h1>
+            <div id="fact6" class="hidden-fact" >
+                <p>Zatiaľ mám skúsenosti, ktoré som získal absolvovaním kurzov a plnením domácich úloh.
+                   Ako cvičenie som sa pustil do niekoľkých projektov, ktoré som nakoniec nepublikoval, no som nadšený študent a nebojím sa vyskúšať nové veci.</p>
+            </div>
+
+
+
+        <h1 id="8" class="fact" onclick="toggleFact('fact8')" > Jazykové znalosti </h1>
+            <div id="fact8" class="hidden-fact" >
+                <div class="container">  
+                    <p><strong>Slovenský:</strong> 
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar">    
+                        </div>                       
+                    </div> 
+                  </div>
+                  
+                <div class="container">  
+                    <p><strong>Anglický:</strong> </p>  
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar-en">    
+                        </div>                       
+                    </div> 
+                  </div>
+            
+                  <div class="container">  
+                    <p><strong>Maďarský:</strong> 
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar-hu">    
+                        </div>                       
+                    </div> 
+                  </div>
+            
+                  
+            
+            </div>
+
+    <footer>
+        <div class="containerr">
+        <div class="line"></div>
+        <p class="created-by">Stránku vytvoril: <a id="foot" href="mailto:example@example.com"><strong>MOKOS DÁVID</strong></a> </a> </p>
+        </div>
+   </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+</body> 
+
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+ </head>
+
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div> 
+
+        <ul class="menu-nav">
+            <li><a href="#1">Contact</a></li>
+            <li><a href="#4">Software Skills</a></li>
+            <li><a href="#5">About Me</a></li>
+            <li><a href="#6">Experience</a></li>
+            <li><a href="#8">Languages</a></li>
+        </ul>
+    
+        <ul>    
+            <li class="lang-switch">
+                <a href="#" class="active-lang">🇺🇸</a>
+                <div class="lang-dropdown">
+                    <a href="indexen.html" class="lang-option active-lang">🇺🇸</a>
+                    <a href="indexhu.html" class="lang-option">🇭🇺</a>
+                    <a href="indexsk.htm" class="lang-option">🇸🇰</a>
+                </div>
+            </li>
+        </ul>
+        
+    </header>
+
+        <h1 id="1" class="fact" onclick="toggleFact('fact1')" > Contact </h1>
+            <div id="fact1" class="hidden-fact" >
+                <p><strong>Adress:</strong><a href="https://maps.google.com" >🌍 Nitra 999; 949 01; Slovakia</p></a> <br>
+                <p><strong>Mobile:</strong><a href="tel: 00421 01 112 233">📞 +421 01 112 233</a> </p> <br>
+                <p><strong>E-mail:</strong><a href="mailto:example@example.com">📧 example@example.com</a> </p> <br>
+                <p><strong>Facebook:</strong><a href="https://www.facebook.com">Facebook</a></p> <br>
+                <p><strong>Linkdin:</strong><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+
+
+
+        <h1 id="4" class="fact" onclick="toggleFact('fact4')" > Software Skills </h1>
+            <div id="fact4" class="hidden-fact" >
+                <p>I acquired my software skills on the <a href="https://skillmea.sk"><strong>skillmea.sk</strong></a>  website by completing several courses where I mastered the fundamentals of <strong id="strg1">HTML, CSS, JavaScript, PHP</strong> and <strong id="strg1">Python</strong>.</p>
+            </div>
+
+
+        <h1 id="5" class="fact" onclick="toggleFact('fact5')" > About Me </h1>
+            <div id="fact5" class="hidden-fact" >
+                <p><strong>Date of Birth:</strong>1993.06.12.</p> <br>
+                <p><strong>Nationality:</strong>Hungarian</p> <br>
+                <p><strong>Sex:</strong> Male </p> <br>
+                <p>I am a 30-year-old young man living near Nitra who started learning programming on a voluntary basis one year ago. <br>
+                Additionally, I am actively studying English as well.<br>
+                I dedicate my free time to practicing both fields day by day, and my goal is to be able to work full-time in these areas. </p>
+
+            </div>
+
+        <h1 id="6" class="fact" onclick="toggleFact('fact6')" > Experience </h1>
+            <div id="fact6" class="hidden-fact" >
+                <p>For now, I have experience that I gained through completing courses and fulfilling assignments. As a practice, I embarked on a few projects that I ultimately did not publish, but I am an enthusiastic learner and not afraid to dive into new things.</p>
+            </div>
+
+
+
+        <h1 id="8" class="fact" onclick="toggleFact('fact8')" > Languages </h1>
+            <div id="fact8" class="hidden-fact" >
+                <div class="container">  
+                    <p><strong>English:</strong> </p>  
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar-en">    
+                        </div>                       
+                    </div> 
+                  </div>
+            
+                  <div class="container">  
+                    <p><strong>Hungarian:</strong> 
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar-hu">    
+                        </div>                       
+                    </div> 
+                  </div>
+            
+                  <div class="container">  
+                    <p><strong>Slovak:</strong> 
+                    <div class="progress progress-striped">            
+                        <div class="progress-bar">    
+                        </div>                       
+                    </div> 
+                  </div>
+            
+            </div>
+
+    <footer>
+        <div class="containerr">
+        <div class="line"></div>
+        <p class="created-by">Created by: <a id="foot" href="mailto:example@example.com"><strong>MOKOS DÁVID</strong></a> </a> </p>
+        </div>
+   </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+</body> 
+<script src="index.js"></script>
+
+</html>
